@@ -2,6 +2,11 @@
 
 A simple, clean and beautiful blogging application written in Laravel 5.1.
 
-This repository contains the source code to accompany the book Laravel 5.1 Beauty.
+curl -sS https://getcomposer.org/installer | php
+php composer.phar install
+mv composer.phar /usr/local/bin/composer
 
-This is the **Chapter 15** branch.
+git clone https://github.com/misterebs/Laravel-Coding-Adaptation.git
+composer install
+php artisan migrate
+php artisan db:seed
